@@ -8,7 +8,7 @@ Inspired by [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-
 
 ## Table of Contents
   1. [Introduction](#introduction)
-  2. [Variables](#variables)
+  2. [변수](#변수)
   3. [Methods](#methods)
   4. [Objects and Data Structures](#objects-and-data-structures)
   5. [Classes](#classes)
@@ -46,8 +46,8 @@ shaped into its final form. Finally, we chisel away the imperfections when
 we review it with our peers. Don't beat yourself up for first drafts that need
 improvement. Beat up the code instead!
 
-## **Variables**
-### Use meaningful and pronounceable variable names
+## **변수**
+### 의미있고, 발음할 수 있는 변수명을 사용해라
 
 **Bad:**
 ```ruby
@@ -60,9 +60,9 @@ current_date = Time.now.strftime('%Y/%m/%d')
 ```
 **[⬆ back to top](#table-of-contents)**
 
-### Use the same vocabulary for the same type of variable
+### 같은 타입(형태)의 변수는 같은 어휘를 사용해라
 
-Pick one word for the concept and stick to it.
+한 개념에 대해 한 단어를 정하고, 그 단어만을 사용해라.
 
 **Bad:**
 ```ruby
